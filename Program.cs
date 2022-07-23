@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace FinalTesting
+namespace Testing
 {
-    class Program
+    class Test
     {
         private static int x = 0;
         private static int y = 0;
@@ -149,22 +149,22 @@ namespace FinalTesting
                                 Order = 0;
                                 Sort(Order);
                                 Console.SetCursorPosition(x + 25, Y);
-                                Console.Write("SORT COMPLETED! hit enter to delete");
+                                Console.Write("Da xep sep xong, bam phim bat ky de tiep tuc");
                                 Console.ReadLine();
                                 Console.SetCursorPosition(x + 25, Y);
                                 Console.ForegroundColor = ConsoleColor.White;
-                                Console.Write("SORT COMPLETED! hit enter to delete");
+                                Console.Write("Da xep sep xong, bam phim bat ky ");
                                 Console.ForegroundColor = ConsoleColor.Black;
                                 break;
                             case 5:
                                 Order = 1;
                                 Sort(Order);
                                 Console.SetCursorPosition(x + 25, Y);
-                                Console.Write("SORT COMPLETED! hit enter to delete");
+                                Console.Write("Da xep sep xong, bam phim bat ky");
                                 Console.ReadLine();
                                 Console.SetCursorPosition(x + 25, Y);
                                 Console.ForegroundColor = ConsoleColor.White;
-                                Console.Write("SORT COMPLETED! hit enter to delete");
+                                Console.Write("Da xep sep xong, bam phim bat ky");
                                 Console.ForegroundColor = ConsoleColor.Black;
                                 break;
                             case 6:
@@ -297,18 +297,4 @@ namespace FinalTesting
         }
     }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
+
